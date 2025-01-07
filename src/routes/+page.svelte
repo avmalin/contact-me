@@ -1,8 +1,11 @@
 <script>
+	import { base } from "$app/paths";
+
     let name = '';
     let email = '';
     let message = '';
     let formStatus = '';
+    console.log(base+'tst');
   
     const handleSubmit = async (event) => {
       event.preventDefault();
